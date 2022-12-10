@@ -1,0 +1,36 @@
+.SignIn {
+    text-align: center;
+    background: rgb(249, 247, 247);
+    height: 100vh;
+
+    img {
+        width: 50px;
+    }
+
+    h4 {
+        font-weight: 700;
+    }
+
+    input {
+        height: 35px;
+        border-radius: 10px;
+        background: #eee;
+        font-size: 14px;
+        border: 0;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    button {
+        height: 35px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}

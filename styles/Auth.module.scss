@@ -1,0 +1,39 @@
+.Auth {
+    padding: 0;
+    margin: 0;
+    background: rgb(249, 247, 247);
+    height: 100vh;
+    h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: rgb(138, 135, 135);
+    }
+
+    button {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 5px 0;
+        width: 400px;
+        border: 0;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &.Button_1 {
+            background: #2e83f3 !important;
+        }
+
+        &.Button_2 {
+            background: #eee !important;
+            color: black;
+        }
+
+
+    }
+}
